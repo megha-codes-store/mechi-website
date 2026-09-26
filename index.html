@@ -7,9 +7,10 @@
 <meta name="description" content="Mechi is a premium uniform manufacturing partner serving healthcare, hospitality, education, and corporate sectors across Siliguri, Kolkata, Bihar, pan-India, and internationally. Carefully crafted. Confidently worn.">
 <link rel="icon" href="images/favicon.png">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/sector-showcase.css">
 </head>
 <body>
+
+<h1 class="sr-only">Mechi — House of Uniforms: premium uniform manufacturing for healthcare, hospitality, corporate and education sectors in Siliguri and across India</h1>
 
 <header class="site-header">
   <div class="nav-wrap">
@@ -67,193 +68,139 @@
 
 </section>
 
-<!-- ============================================================
-     MECHI — SECTORS WE SERVE  (homepage showcase section)
-     Replaces the existing "Sectors We Serve" <section> in index.html
-     Requires: css/sector-showcase.css
-
-     TO ADD REAL PHOTOS:
-     Replace each  <div class="ph-photo">...</div>  with
-       <img src="images/sector-healthcare.jpg" alt="...">
-     and remove the  is-placeholder  class from .sec-visual
-     ============================================================ -->
-
 <section>
   <div class="container">
     <div class="section-head center">
-      <span class="eyebrow" style="justify-content:center;">What We Serve</span>
-      <h2>Sectors We Serve</h2>
-      <p style="max-width:600px; margin:14px auto 0; text-align:center;">
-        Four sectors, one standard. Every uniform is built around how the people
-        wearing it actually spend their day.
-      </p>
+      <span class="eyebrow" style="justify-content:center;">Industries We Serve</span>
+      <h2>Uniforms designed for your industry</h2>
+      <p style="margin-top:14px;">Whatever sector you operate in, Mechi designs uniforms specifically for your people, your brand and the environment they work in.</p>
     </div>
 
     <div class="sector-showcase">
 
-      <!-- ============ HEALTHCARE ============ -->
-      <a href="sector-healthcare.html" class="sec-card">
-        <div class="sec-visual is-placeholder">
-          <div class="ph-photo">
-            <svg viewBox="0 0 40 40" aria-hidden="true">
-              <path d="M14 6l-6 3v25h24V9l-6-3"/>
-              <path d="M14 6l6 6 6-6"/>
-              <path d="M20 18v8M16 22h8"/>
-            </svg>
-            <span class="ph-t">Photography Pending</span>
-            <span class="ph-s">Nursing staff in Mechi scrubs — hospital corridor, natural light</span>
+      <!-- CORPORATE -->
+      <article class="sector-block">
+        <div class="sb-text">
+          <span class="sb-index">01 — CORPORATE</span>
+          <h3>Corporate Uniforms</h3>
+          <p>Standardised across departments and locations, carrying your brand consistently wherever your people are — from head office to field teams.</p>
+          <div class="sb-tags">
+            <span class="sb-tag">Formal Shirts</span>
+            <span class="sb-tag">Blazers</span>
+            <span class="sb-tag">Branded Polos</span>
+            <span class="sb-tag">Front Office</span>
+            <span class="sb-tag">Field Teamwear</span>
           </div>
-          <div class="sec-visual-label">
-            <span class="svl-eyebrow">Sector 01</span>
-            <h3>Healthcare</h3>
+          <a href="corporate-uniforms.html" class="sb-link">Explore Corporate Uniforms →</a>
+        </div>
+        <div class="sb-visual">
+          <figure class="sb-shot">
+            <img src="images/co-polo-navy.jpg" alt="Mechi corporate polo t-shirt in navy with jacquard trim" loading="lazy">
+            <figcaption class="shot-cap">Jacquard Trim Polo</figcaption>
+          </figure>
+          <figure class="sb-shot">
+            <img src="images/co-polo-blue.jpg" alt="Mechi tipping collar corporate polo in royal blue" loading="lazy">
+            <figcaption class="shot-cap">Tipping Collar Polo</figcaption>
+          </figure>
+          <div class="sb-shot ph">
+            <div class="ph-ico">◈</div>
+            <div class="ph-txt">Formal Shirt<br>&amp; Blazer</div>
           </div>
         </div>
-        <div class="sec-body">
-          <p>Scrubs, lab coats, nurse uniforms, OT gowns and patient wear — built to
-             hold up through a twelve-hour shift and still look composed at the end of it.</p>
-          <div class="sec-thumbs">
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M14 8l-5 3v21h22V11l-5-3"/><path d="M14 8l6 5 6-5"/></svg></div>
-              <span class="sec-thumb-cap">Scrubs</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 7l-4 3v24h22V10l-4-3"/><path d="M13 7v27M27 7v27M20 9v6"/></svg></div>
-              <span class="sec-thumb-cap">Lab Coats</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12 10h16v22H12z"/><path d="M12 16h16M20 10v6"/></svg></div>
-              <span class="sec-thumb-cap">OT Gowns</span>
-            </div>
-          </div>
-          <div class="sec-foot">
-            <span class="sec-count">6 product lines</span>
-            <span class="sec-link">Explore Healthcare <span class="arrow">→</span></span>
-          </div>
-        </div>
-      </a>
+      </article>
 
-      <!-- ============ HOSPITALITY ============ -->
-      <a href="sector-hospitality.html" class="sec-card">
-        <div class="sec-visual is-placeholder">
-          <div class="ph-photo">
-            <svg viewBox="0 0 40 40" aria-hidden="true">
-              <path d="M13 7l-5 3v24h24V10l-5-3"/>
-              <path d="M13 7l7 7 7-7"/>
-              <path d="M20 16v18"/>
-            </svg>
-            <span class="ph-t">Photography Pending</span>
-            <span class="ph-s">Front-desk team in Mechi uniforms — hotel lobby, warm light</span>
+      <!-- HEALTHCARE -->
+      <article class="sector-block flip">
+        <div class="sb-text">
+          <span class="sb-index">02 — HEALTHCARE</span>
+          <h3>Healthcare Uniforms</h3>
+          <p>Colour-coded across departments, cut for twelve-hour shifts, and specified to survive repeated industrial laundering without fading or losing shape.</p>
+          <div class="sb-tags">
+            <span class="sb-tag">Nurse Uniforms</span>
+            <span class="sb-tag">Scrub Suits</span>
+            <span class="sb-tag">Lab Coats</span>
+            <span class="sb-tag">OT Gowns</span>
+            <span class="sb-tag">Patient Wear</span>
           </div>
-          <div class="sec-visual-label">
-            <span class="svl-eyebrow">Sector 02</span>
-            <h3>Hospitality</h3>
-          </div>
+          <a href="healthcare-uniforms.html" class="sb-link">Explore Healthcare Uniforms →</a>
         </div>
-        <div class="sec-body">
-          <p>Every guest-facing staff member is a brand ambassador. Uniforms that carry
-             your property's polish through long service hours — and arrive on schedule.</p>
-          <div class="sec-thumbs">
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 8l-4 3v23h22V11l-4-3"/><path d="M13 8l7 6 7-6"/></svg></div>
-              <span class="sec-thumb-cap">Front Desk</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M14 12c0-4 12-4 12 0v20H14z"/><path d="M14 18h12"/></svg></div>
-              <span class="sec-thumb-cap">F&amp;B</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12 11h16v21H12z"/><path d="M17 11v21M12 20h16"/></svg></div>
-              <span class="sec-thumb-cap">Housekeeping</span>
-            </div>
-          </div>
-          <div class="sec-foot">
-            <span class="sec-count">4 product lines</span>
-            <span class="sec-link">Explore Hospitality <span class="arrow">→</span></span>
-          </div>
+        <div class="sb-visual">
+          <figure class="sb-shot">
+            <img src="images/hc-nurse-peacock.jpg" alt="Mechi nurse uniform in peacock blue with white piping" loading="lazy">
+            <figcaption class="shot-cap">Nurse Uniform</figcaption>
+          </figure>
+          <figure class="sb-shot">
+            <img src="images/hc-scrub-navy.jpg" alt="Mechi female scrub suit in navy blue" loading="lazy">
+            <figcaption class="shot-cap">Scrub Suit</figcaption>
+          </figure>
+          <figure class="sb-shot">
+            <img src="images/hc-labcoat-male.jpg" alt="Mechi white lab coat, half sleeve" loading="lazy">
+            <figcaption class="shot-cap">Lab Coat</figcaption>
+          </figure>
         </div>
-      </a>
+      </article>
 
-      <!-- ============ EDUCATION ============ -->
-      <a href="sector-education.html" class="sec-card">
-        <div class="sec-visual is-placeholder">
-          <div class="ph-photo">
-            <svg viewBox="0 0 40 40" aria-hidden="true">
-              <path d="M6 15l14-6 14 6-14 6z"/>
-              <path d="M12 18v8c0 3 16 3 16 0v-8"/>
-              <path d="M34 15v9"/>
-            </svg>
-            <span class="ph-t">Photography Pending</span>
-            <span class="ph-s">Students in Mechi institutional uniforms — school grounds</span>
+      <!-- HOSPITALITY -->
+      <article class="sector-block">
+        <div class="sb-text">
+          <span class="sb-index">03 — HOSPITALITY</span>
+          <h3>Hospitality Uniforms</h3>
+          <p>One identity across many roles — front office, restaurant floor, housekeeping and kitchen all visibly belonging to the same property.</p>
+          <div class="sb-tags">
+            <span class="sb-tag">Front Office</span>
+            <span class="sb-tag">F&amp;B Service</span>
+            <span class="sb-tag">Housekeeping</span>
+            <span class="sb-tag">Chef Coats</span>
+            <span class="sb-tag">Management</span>
           </div>
-          <div class="sec-visual-label">
-            <span class="svl-eyebrow">Sector 03</span>
-            <h3>Education</h3>
+          <a href="hospitality-uniforms.html" class="sb-link">Explore Hospitality Uniforms →</a>
+        </div>
+        <div class="sb-visual">
+          <div class="sb-shot ph">
+            <div class="ph-ico">◈</div>
+            <div class="ph-txt">Front Office<br>Blazer</div>
+          </div>
+          <figure class="sb-shot">
+            <img src="images/co-polo-navy.jpg" alt="Mechi service polo in navy for hospitality teams" loading="lazy">
+            <figcaption class="shot-cap">Service Polo</figcaption>
+          </figure>
+          <div class="sb-shot ph">
+            <div class="ph-ico">✦</div>
+            <div class="ph-txt">Chef Coat<br>&amp; Apron</div>
           </div>
         </div>
-        <div class="sec-body">
-          <p>Well-fitted, hard-wearing uniforms that carry your institution's identity —
-             without the annual scramble of an unreliable supplier.</p>
-          <div class="sec-thumbs">
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 8l-4 3v23h22V11l-4-3"/><path d="M13 8l7 6 7-6M20 20v10"/></svg></div>
-              <span class="sec-thumb-cap">School Sets</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12 12h16v20H12z"/><path d="M16 12v20M24 12v20"/></svg></div>
-              <span class="sec-thumb-cap">House Wear</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="9"/><path d="M20 11v18M11 20h18"/></svg></div>
-              <span class="sec-thumb-cap">Sports Kit</span>
-            </div>
-          </div>
-          <div class="sec-foot">
-            <span class="sec-count">3 product lines</span>
-            <span class="sec-link">Explore Education <span class="arrow">→</span></span>
-          </div>
-        </div>
-      </a>
+      </article>
 
-      <!-- ============ CORPORATE ============ -->
-      <a href="sector-corporate.html" class="sec-card">
-        <div class="sec-visual is-placeholder">
-          <div class="ph-photo">
-            <svg viewBox="0 0 40 40" aria-hidden="true">
-              <path d="M13 7l-5 3v24h24V10l-5-3"/>
-              <path d="M13 7l7 8 7-8"/>
-              <path d="M17 15l3 4 3-4"/>
-            </svg>
-            <span class="ph-t">Photography Pending</span>
-            <span class="ph-s">Corporate team in Mechi shirts and blazers — office interior</span>
+      <!-- SCHOOLS -->
+      <article class="sector-block flip">
+        <div class="sb-text">
+          <span class="sb-index">04 — SCHOOLS &amp; EDUCATION</span>
+          <h3>School &amp; Education Uniforms</h3>
+          <p>Durability first, identity second — because a uniform worn every day for years has to survive the year before it can represent the institution.</p>
+          <div class="sb-tags">
+            <span class="sb-tag">Student Sets</span>
+            <span class="sb-tag">Faculty Wear</span>
+            <span class="sb-tag">Sports &amp; Track</span>
+            <span class="sb-tag">House Teams</span>
+            <span class="sb-tag">Administration</span>
           </div>
-          <div class="sec-visual-label">
-            <span class="svl-eyebrow">Sector 04</span>
-            <h3>Corporate</h3>
+          <a href="school-uniforms.html" class="sb-link">Explore School Uniforms →</a>
+        </div>
+        <div class="sb-visual">
+          <div class="sb-shot ph">
+            <div class="ph-ico">◉</div>
+            <div class="ph-txt">Student<br>Uniform Set</div>
+          </div>
+          <figure class="sb-shot">
+            <img src="images/co-polo-blue.jpg" alt="Mechi house team polo in royal blue for schools" loading="lazy">
+            <figcaption class="shot-cap">House Polo</figcaption>
+          </figure>
+          <div class="sb-shot ph">
+            <div class="ph-ico">✦</div>
+            <div class="ph-txt">Sports &amp;<br>Track Set</div>
           </div>
         </div>
-        <div class="sec-body">
-          <p>Shirts, blazers, trousers and polos standardised across every department
-             and location — so a team in Siliguri looks like the same company as one in Kolkata.</p>
-          <div class="sec-thumbs">
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 8l-4 3v23h22V11l-4-3"/><path d="M13 8l7 6 7-6M20 16v18"/></svg></div>
-              <span class="sec-thumb-cap">Shirts</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12 9l-3 3v22h22V12l-3-3"/><path d="M12 9l8 9 8-9M20 18v16"/></svg></div>
-              <span class="sec-thumb-cap">Blazers</span>
-            </div>
-            <div class="sec-thumb">
-              <div class="ph-photo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 12h18v20H11z"/><path d="M15 12v5h10v-5"/></svg></div>
-              <span class="sec-thumb-cap">Polos</span>
-            </div>
-          </div>
-          <div class="sec-foot">
-            <span class="sec-count">5 product lines</span>
-            <span class="sec-link">Explore Corporate <span class="arrow">→</span></span>
-          </div>
-        </div>
-      </a>
+      </article>
 
     </div>
   </div>
@@ -315,29 +262,29 @@
     </div>
     <div class="gallery-scroll">
       <div class="gallery-item">
-        <div class="gallery-item-img"><img src="images/catalogue-1.png" alt="Mechi corporate polo"></div>
+        <div class="gallery-item-img"><img src="images/co-polo-navy.jpg" alt="Mechi corporate polo, navy with jacquard trim" loading="lazy"></div>
         <div class="gallery-item-sector">Corporate</div>
-        <div class="gallery-item-label">Jacquard Trimming Polo</div>
+        <div class="gallery-item-label">Jacquard Trim Polo</div>
       </div>
       <div class="gallery-item">
-        <div class="gallery-item-img"><img src="images/catalogue-2.png" alt="Mechi tipping collar polo"></div>
-        <div class="gallery-item-sector">Corporate</div>
-        <div class="gallery-item-label">Tipping Collar Polo, Mercerised</div>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-item-img"><img src="images/catalogue-3.png" alt="Mechi tipping collar polo range"></div>
-        <div class="gallery-item-sector">Corporate</div>
-        <div class="gallery-item-label">Tipping Collar Polo, 24 Colours</div>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-item-img" style="display:flex;align-items:center;justify-content:center;color:var(--bronze);font-size:2rem;">⚕</div>
+        <div class="gallery-item-img"><img src="images/hc-nurse-peacock.jpg" alt="Mechi nurse uniform, peacock blue" loading="lazy"></div>
         <div class="gallery-item-sector">Healthcare</div>
-        <div class="gallery-item-label">Scrubs & Nurse Uniforms</div>
+        <div class="gallery-item-label">Nurse Uniform</div>
       </div>
       <div class="gallery-item">
-        <div class="gallery-item-img" style="display:flex;align-items:center;justify-content:center;color:var(--bronze);font-size:2rem;">🎓</div>
-        <div class="gallery-item-sector">Education</div>
-        <div class="gallery-item-label">Institutional Uniforms</div>
+        <div class="gallery-item-img"><img src="images/hc-labcoat-male.jpg" alt="Mechi lab coat, half sleeve" loading="lazy"></div>
+        <div class="gallery-item-sector">Healthcare</div>
+        <div class="gallery-item-label">Lab Coat</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-img"><img src="images/co-polo-blue.jpg" alt="Mechi tipping collar polo, royal blue" loading="lazy"></div>
+        <div class="gallery-item-sector">Corporate</div>
+        <div class="gallery-item-label">Tipping Collar Polo</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-img"><img src="images/hc-scrub-navy.jpg" alt="Mechi scrub suit, navy" loading="lazy"></div>
+        <div class="gallery-item-sector">Healthcare</div>
+        <div class="gallery-item-label">Scrub Suit</div>
       </div>
     </div>
   </div>
@@ -355,7 +302,7 @@
 <section class="section-cream-deep">
   <div class="container">
     <div class="two-col">
-      <img src="images/catalogue-2.png" alt="Mechi corporate uniform">
+      <img src="images/co-polo-navy.jpg" alt="Mechi corporate polo, navy" loading="lazy">
       <div>
         <span class="eyebrow">Why Mechi</span>
         <h2>Founder-Led. Founder-Accountable.</h2>
@@ -405,18 +352,11 @@
         <p style="font-size:0.85rem;">Premium uniform manufacturing for healthcare, hospitality, education, and corporate sectors.</p>
       </div>
       <div class="footer-col">
-        <h4>Explore</h4>
-        <a href="about.html">About Us</a>
-        <a href="what-we-make.html">What We Make</a>
-        <a href="why-mechi.html">Why Mechi</a>
-        <a href="insights.html">Insights</a>
-      </div>
-      <div class="footer-col">
         <h4>Sectors</h4>
-        <a href="sector-healthcare.html">Healthcare</a>
-        <a href="sector-hospitality.html">Hospitality</a>
-        <a href="sector-education.html">Education</a>
-        <a href="sector-corporate.html">Corporate</a>
+        <a href="healthcare-uniforms.html">Healthcare Uniforms</a>
+        <a href="hospitality-uniforms.html">Hospitality Uniforms</a>
+        <a href="corporate-uniforms.html">Corporate Uniforms</a>
+        <a href="school-uniforms.html">School &amp; Education</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
