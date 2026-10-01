@@ -869,6 +869,21 @@ footer.site-footer {
   font-weight: 700; margin-bottom: 7px; color: var(--black);
 }
 .cat-card p { font-size: 0.79rem; line-height: 1.55; }
+.cat-grid.six { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.cat-card .cc-roles {
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line);
+  font-size: 0.72rem; line-height: 1.6; color: var(--mgray);
+}
+
+/* --- Client logo strip --- */
+.client-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+.client-logo {
+  width: 170px; height: 84px; display: flex; align-items: center; justify-content: center;
+  padding: 14px; background: var(--cream); border: 1px solid var(--line); border-radius: 4px;
+}
+.client-logo img { max-width: 100%; max-height: 100%; object-fit: contain; filter: grayscale(1); opacity: .8; transition: filter .3s ease, opacity .3s ease; }
+.client-logo:hover img { filter: none; opacity: 1; }
+.client-logo.ph { border-style: dashed; font-size: 0.72rem; color: var(--mgray); }
 
 /* --- Design showcase gallery --- */
 .showcase-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
@@ -952,7 +967,8 @@ footer.site-footer {
   .sector-hero { aspect-ratio: 4/5; }
   .sector-hero img { object-position: 62% center; }
   .sector-hero-cta .btn { width: 100%; justify-content: center; }
-  .cat-grid { grid-template-columns: repeat(2, 1fr); }
+  .cat-grid, .cat-grid.six { grid-template-columns: repeat(2, 1fr); }
+  .client-logo { width: calc(50% - 8px); }
   .showcase-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .showcase-item .si-label { opacity: 1; font-size: 0.68rem; padding: 18px 10px 9px; }
   .custom-grid { grid-template-columns: 1fr; }
