@@ -49,6 +49,13 @@ Canonical links use `https://mechihouse.com/<page>.html`.
   international client in California, USA. ("100% quality-inspected" removed at founders' request.)
 - Hero banners appear AI-generated (people); founders have no real photos yet — replacement pending.
 - Contact page has an enquiry form that sends via WhatsApp or email (no backend).
+- Decision: stay on this hand-coded site (no website builder); founders send changes to Claude.
+- Process facts (founder-confirmed, used in the 6-step How It Works on home + hospitality): mockups and
+  fabric swatches; site visits case by case; physical samples on request (chargeable, adjusted against the
+  confirmed order — do not publish charges); sizing by size chart or staff measurement; quality-checked at
+  production (not again before dispatch); no MOQ; 1–4 weeks; packed by department, measured pieces numbered
+  with a staff list, standard sizes size-tagged; size exchange only for faults on Mechi's side; alterations
+  only for local clients on measured pieces; reorders any size.
 
 - All pages exist and every internal link works.
 - Product photos are intentionally hidden: product images were replaced with placeholder

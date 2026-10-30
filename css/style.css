@@ -1015,6 +1015,7 @@ footer.site-footer {
 
 /* --- Why (sector) --- */
 .whysec-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+.whysec-grid.six { grid-template-columns: repeat(3, 1fr); gap: 36px 48px; }
 .whysec-item .wi-num {
   font-family: 'Cormorant Garamond', serif; font-size: 1.9rem;
   color: var(--bronze); font-weight: 700; line-height: 1; margin-bottom: 9px;
@@ -1041,7 +1042,7 @@ footer.site-footer {
   .showcase-item.tall { grid-row: span 1; }
   .showcase-item.tall img { aspect-ratio: 3/4; }
   .custom-grid { grid-template-columns: repeat(2, 1fr); }
-  .whysec-grid { grid-template-columns: repeat(2, 1fr); gap: 26px; }
+  .whysec-grid, .whysec-grid.six { grid-template-columns: repeat(2, 1fr); gap: 26px; }
   .sector-cards { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 760px) {
@@ -1064,7 +1065,7 @@ footer.site-footer {
   .showcase-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .showcase-item .si-label { opacity: 1; font-size: 0.68rem; padding: 18px 10px 9px; }
   .custom-grid { grid-template-columns: 1fr; }
-  .whysec-grid { grid-template-columns: 1fr; gap: 22px; }
+  .whysec-grid, .whysec-grid.six { grid-template-columns: 1fr; gap: 22px; }
   .cta-row .btn { width: 100%; justify-content: center; }
   .sector-cards { grid-template-columns: 1fr; }
   .float-whatsapp { width: 52px; height: 52px; bottom: 18px; right: 18px; }
