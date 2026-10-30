@@ -43,26 +43,36 @@
 
 <section class="hero-banner-slider" aria-label="Mechi uniforms by sector">
   <div class="hero-banner-slide active">
-    <div class="hb-caption"><span class="hb-sector">Corporate Uniforms</span><p class="hb-title">Where Professionalism <span>Begins.</span></p></div>
-    <img src="images/hero-corporate.jpg" srcset="images/hero-corporate-1200.webp 1200w, images/hero-corporate-2400.webp 2400w" sizes="100vw" width="2400" height="1000" alt="Mechi corporate uniforms — where professionalism begins">
+    <img src="images/hero2-corporate.jpg" srcset="images/hero2-corporate-768.webp 768w, images/hero2-corporate-1536.webp 1536w" sizes="100vw" width="1536" height="1024" alt="Two Mechi corporate uniforms: a navy blazer with white shirt, and a light-blue formal shirt with grey trousers">
+    <div class="hb-caption">
+      <span class="hb-sector">Corporate Uniforms</span>
+      <p class="hb-title">Where Professionalism <span>Begins.</span></p>
+      <p class="hb-sub">Tailored uniforms that reflect your brand’s identity, inspire confidence, and help every team member represent your organisation with pride.</p>
+      <a class="hb-link" href="corporate-uniforms.html">Explore Corporate Uniforms →</a>
+    </div>
   </div>
   <div class="hero-banner-slide">
-    <div class="hb-caption"><span class="hb-sector">Healthcare Uniforms</span><p class="hb-title">Crafted for <span>Care.</span></p></div>
-    <img src="images/hero-healthcare.jpg" srcset="images/hero-healthcare-1200.webp 1200w, images/hero-healthcare-2400.webp 2400w" sizes="100vw" width="2400" height="1000" alt="Mechi healthcare uniforms — crafted for care">
+    <img src="images/hero2-hospitality.jpg" srcset="images/hero2-hospitality-768.webp 768w, images/hero2-hospitality-1536.webp 1536w" sizes="100vw" width="1536" height="1024" alt="Hotel front-desk and restaurant staff in coordinated hospitality uniforms">
+    <div class="hb-caption">
+      <span class="hb-sector">Hospitality Uniforms</span>
+      <p class="hb-title">Where Service <span>Meets Style.</span></p>
+      <p class="hb-sub">Thoughtfully designed uniforms that elevate every guest experience with elegance, comfort and distinction.</p>
+      <a class="hb-link" href="hospitality-uniforms.html">Explore Hospitality Uniforms →</a>
+    </div>
   </div>
   <div class="hero-banner-slide">
-    <div class="hb-caption"><span class="hb-sector">Hospitality Uniforms</span><p class="hb-title">Where Service <span>Meets Style.</span></p></div>
-    <img src="images/hero-hospitality.jpg" srcset="images/hero-hospitality-1200.webp 1200w, images/hero-hospitality-2400.webp 2400w" sizes="100vw" width="2400" height="1000" alt="Mechi hospitality uniforms — where service meets style">
-  </div>
-  <div class="hero-banner-slide">
-    <div class="hb-caption"><span class="hb-sector">School &amp; Education Uniforms</span><p class="hb-title">Where <span>Confidence</span> Begins.</p></div>
-    <img src="images/hero-education.jpg" srcset="images/hero-education-1200.webp 1200w, images/hero-education-2400.webp 2400w" sizes="100vw" width="2400" height="1000" alt="Mechi school and education uniforms — where confidence begins">
+    <img src="images/hero2-education.jpg" srcset="images/hero2-education-768.webp 768w, images/hero2-education-1536.webp 1536w" sizes="100vw" width="1536" height="1024" alt="Two students in navy blazers, white shirts and maroon striped ties">
+    <div class="hb-caption">
+      <span class="hb-sector">School &amp; Education Uniforms</span>
+      <p class="hb-title">Where <span>Confidence</span> Begins.</p>
+      <p class="hb-sub">Thoughtfully crafted uniforms that inspire confidence, strengthen identity, and help every student represent their institution with pride.</p>
+      <a class="hb-link" href="school-uniforms.html">Explore School Uniforms →</a>
+    </div>
   </div>
   <div class="hero-banner-dots">
     <button class="slide-dot active" type="button" aria-label="Show slide 1" onclick="showSlide(0)"></button>
     <button class="slide-dot" type="button" aria-label="Show slide 2" onclick="showSlide(1)"></button>
     <button class="slide-dot" type="button" aria-label="Show slide 3" onclick="showSlide(2)"></button>
-    <button class="slide-dot" type="button" aria-label="Show slide 4" onclick="showSlide(3)"></button>
   </div>
 </section>
 
@@ -278,7 +288,7 @@ function showSlide(i) {
 }
 let currentSlide = 0;
 setInterval(() => {
-  currentSlide = (currentSlide + 1) % 4;
+  currentSlide = (currentSlide + 1) % document.querySelectorAll('.hero-banner-slide').length;
   showSlide(currentSlide);
 }, 6000);
 </script>
