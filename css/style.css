@@ -759,7 +759,7 @@ footer.site-footer {
 /* ============ TRUST BAND (no logos, reach-based) ============ */
 .trust-band { background: var(--black); padding: 46px 0; }
 .trust-band-inner {
-  display: grid; grid-template-columns: repeat(4, auto); align-items: center;
+  display: grid; grid-template-columns: auto 1px auto 1px auto; align-items: center;
   justify-content: space-between; gap: 30px;
 }
 .trust-item { display: flex; align-items: center; gap: 14px; color: white; }
@@ -857,7 +857,7 @@ footer.site-footer {
   .enquiry-form { padding: 26px 22px; }
   .blog-grid { grid-template-columns: 1fr; }
   .embroidery-feature { grid-template-columns: 1fr; padding: 30px; }
-  .trust-band-inner { grid-template-columns: repeat(2, auto); justify-content: space-around; }
+  .trust-band-inner { grid-template-columns: repeat(3, auto); justify-content: space-around; }
   .trust-divider { display: none; }
   .reach-connector { width: 24px; }
 }
@@ -1069,9 +1069,9 @@ footer.site-footer {
   .sector-cards { grid-template-columns: 1fr; }
   .float-whatsapp { width: 52px; height: 52px; bottom: 18px; right: 18px; }
   .float-whatsapp .i-wa { width: 26px; height: 26px; }
-  .trust-band-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 18px; }
-  .trust-item { flex-direction: column; align-items: flex-start; gap: 6px; }
-  .trust-item .ti-num { font-size: 1.9rem; }
+  .trust-band-inner { grid-template-columns: 1fr; justify-content: start; gap: 22px; }
+  .trust-item .ti-num { font-size: 1.9rem; min-width: 150px; }
+  .trust-item .ti-text { max-width: none; }
   .branding-feature { gap: 10px; }
 }
 

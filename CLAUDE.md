@@ -46,7 +46,7 @@ Canonical links use `https://mechihouse.com/<page>.html`.
 ## Current status (Oct 2026)
 
 - Home stats (founder-confirmed): 500+ organisations, 50,000+ employees outfitted, Pan-India delivery,
-  international client in California, USA. "100% quality-inspected" kept from earlier copy — reconfirm.
+  international client in California, USA. ("100% quality-inspected" removed at founders' request.)
 - Hero banners appear AI-generated (people); founders have no real photos yet — replacement pending.
 - Contact page has an enquiry form that sends via WhatsApp or email (no backend).
 
