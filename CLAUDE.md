@@ -12,9 +12,15 @@ build step. Domain: https://mechihouse.com (not live yet).
   `corporate-uniforms.html`, `school-uniforms.html` — all share one template
   (hero banner, categories, design showcase, customisation grid, why Mechi, CTA)
 - `insights.html` + `blog-choosing-scrub-fabric.html`
-- `css/style.css` — all styling; `images/` — logo, favicon, hero banners, product photos
+- `css/style.css` — all styling; `js/site.js` — mobile menu toggle (loaded on every page)
+- `images/` — logo (`logo-header.png` / `logo-white-trim.png` are cropped versions used in header/footer),
+  favicon, hero banners (`hero-*.jpg` originals + `hero-*-1200/2400.webp` used via srcset),
+  `og-image.jpg` (link-preview card), product photos
 
 Header nav and footer are duplicated in every page: change them in all pages together.
+WhatsApp links carry a per-page prefilled message (`?text=`); keep that when adding new links.
+The home hero banners have the headline baked into the image; on mobile an HTML caption (`.hb-caption`)
+shows it instead.
 Canonical links use `https://mechihouse.com/<page>.html`.
 
 ## Brand rules (locked — do not change without the founders' approval)
@@ -38,6 +44,11 @@ Canonical links use `https://mechihouse.com/<page>.html`.
   using a trusted production partner network".
 
 ## Current status (Oct 2026)
+
+- Home stats (founder-confirmed): 500+ organisations, 50,000+ employees outfitted, Pan-India delivery,
+  international client in California, USA. "100% quality-inspected" kept from earlier copy — reconfirm.
+- Hero banners appear AI-generated (people); founders have no real photos yet — replacement pending.
+- Contact page has an enquiry form that sends via WhatsApp or email (no backend).
 
 - All pages exist and every internal link works.
 - Product photos are intentionally hidden: product images were replaced with placeholder
