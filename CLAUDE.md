@@ -6,7 +6,7 @@ build step. Domain: https://mechihouse.com (not live yet).
 
 ## Structure
 
-- `index.html` — home (4-slide hero banner slider, sector showcase, trust band, reach path)
+- `index.html` — home (4-slide hero slider, sector cards, trust band, How It Works, reach path)
 - `about.html`, `why-mechi.html`, `what-we-make.html`, `contact.html`
 - Sector pages: `healthcare-uniforms.html`, `hospitality-uniforms.html`,
   `corporate-uniforms.html`, `school-uniforms.html` — all share one template
@@ -14,13 +14,13 @@ build step. Domain: https://mechihouse.com (not live yet).
 - `insights.html` + `blog-choosing-scrub-fabric.html`
 - `css/style.css` — all styling; `js/site.js` — mobile menu toggle (loaded on every page)
 - `images/` — logo (`logo-header.png` / `logo-white-trim.png` are cropped versions used in header/footer),
-  favicon, hero banners (`hero-*.jpg` originals + `hero-*-1200/2400.webp` used via srcset),
+  favicon, hero photos (`hero2-<sector>.jpg` + `-768/-1536.webp` via srcset; used on home and sector pages),
   `og-image.jpg` (link-preview card), product photos
 
 Header nav and footer are duplicated in every page: change them in all pages together.
 WhatsApp links carry a per-page prefilled message (`?text=`); keep that when adding new links.
-The home hero banners have the headline baked into the image; on mobile an HTML caption (`.hb-caption`)
-shows it instead.
+Hero photos are text-free; the home headline is HTML (`.hb-caption`) over a soft left fade (stacked above
+the photo on mobile). Keep people on the right two-thirds of any replacement photo.
 Canonical links use `https://mechihouse.com/<page>.html`.
 
 ## Brand rules (locked — do not change without the founders' approval)
@@ -47,8 +47,8 @@ Canonical links use `https://mechihouse.com/<page>.html`.
 
 - Home stats (founder-confirmed): 500+ organisations, 50,000+ employees outfitted, Pan-India delivery,
   international client in California, USA. ("100% quality-inspected" removed at founders' request.)
-- Hero banners: founders dislike the current AI images and a text-only hero; they approved generating new
-  AI hero images themselves (ChatGPT, prompts from Claude, text-free) until a mannequin shoot in a few weeks.
+- Hero photos: founder-approved AI images generated in ChatGPT (Nov 2026), text-free, in use on home + all
+  sector pages; temporary until a mannequin/real shoot. Old baked-text AI banners were removed.
 - Contact page has an enquiry form that sends via WhatsApp or email (no backend).
 - Decision: stay on this hand-coded site (no website builder); founders send changes to Claude.
 - Process facts (founder-confirmed, used in the 6-step How It Works on home + hospitality): mockups and
