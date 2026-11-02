@@ -7,7 +7,7 @@ build step. Domain: https://mechihouse.com (not live yet).
 ## Structure
 
 - `index.html` — home (4-slide hero slider, sector cards, trust band, How It Works, reach path)
-- `about.html`, `why-mechi.html`, `what-we-make.html`, `contact.html`
+- `about.html` (story + Why Mechi `#why-mechi` + reach), `what-we-make.html` ("All Uniforms"), `contact.html`
 - Sector pages: `healthcare-uniforms.html`, `hospitality-uniforms.html`,
   `corporate-uniforms.html`, `school-uniforms.html` — all share one template
   (hero banner, categories, design showcase, customisation grid, why Mechi, CTA)
@@ -18,6 +18,8 @@ build step. Domain: https://mechihouse.com (not live yet).
   `og-image.jpg` (link-preview card), product photos
 
 Header nav and footer are duplicated in every page: change them in all pages together.
+Menu (founder-approved): Home · Uniforms ▾ (4 sector pages + All Uniforms) · About · Contact.
+Insights is linked from the footer "Company" column only, until there are 4–6 articles.
 WhatsApp links carry a per-page prefilled message (`?text=`); keep that when adding new links.
 Hero photos are text-free; the home headline is HTML (`.hb-caption`) over a soft left fade (stacked above
 the photo on mobile). Keep people on the right two-thirds of any replacement photo.
@@ -68,7 +70,7 @@ Canonical links use `https://mechihouse.com/<page>.html`.
   available; which clients can be named (ECKO Hotels & Resorts and Royal Heritage Inn are
   clients — confirm before naming); testimonials; hospitality numbers; design/mockup process,
   MOQ, lead time, reorder handling.
-- School page copy is a first draft awaiting founder review. The Why Mechi headline
-  "India's Most Trusted Complete Uniform Partner" is a strong claim to reconfirm.
+- School page copy is a first draft awaiting founder review.
+- why-mechi.html was merged into about.html; headline is "The Complete Uniform Partner" (founder decision).
 - Pending brand decisions: heading font (Cormorant may change), and whether "INSTITUTIONS"
   replaces "EDUCATION" in the sector line.
