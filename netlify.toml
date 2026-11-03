@@ -1,0 +1,11 @@
+# Netlify hosting config.
+# Only public website files are copied into dist/ and published —
+# internal notes such as CLAUDE.md are never deployed.
+[build]
+  command = "rm -rf dist && mkdir dist && cp -r *.html robots.txt sitemap.xml css js images dist/"
+  publish = "dist"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
