@@ -25,6 +25,14 @@ Hero photos are text-free; the home headline is HTML (`.hb-caption`) over a soft
 the photo on mobile). Keep people on the right two-thirds of any replacement photo.
 Canonical links use `https://mechihouse.com/<page>.html`.
 
+## Hosting
+
+- Netlify (planned): `netlify.toml` copies only public files (`*.html`, `robots.txt`, `sitemap.xml`,
+  `css/`, `js/`, `images/`) into `dist/` and publishes that — CLAUDE.md and other internal files
+  are never deployed. Add any new public top-level file to that copy command.
+- `404.html` uses root-absolute paths; `sitemap.xml` lists every public page — update it when
+  adding or removing pages.
+
 ## Brand rules (locked — do not change without the founders' approval)
 
 - Tagline: "Carefully crafted. Confidently worn." Positioning: "The Complete Uniform Partner"
