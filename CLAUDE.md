@@ -17,7 +17,7 @@ build step. Live at https://mechihouse.com (Netlify; domain registered at Namech
 - `images/` — logo (`logo-header.png` / `logo-white-trim.png` are cropped versions used in header/footer),
   favicon, hero photos (`hero2-<sector>.jpg` + `-768/-1536.webp` via srcset; used on home and sector pages),
   `og-image.jpg` (link-preview card), product photos
-- `videos/` — `craft-*.mp4` (muted 720×540 H.264 loops; stabilised, colour-graded, 0.8× speed, cream fades;, cropped to hands/fabric, no faces or workshop
+- `videos/` — `craft-*.mp4` (muted 720×540 H.264 loops; stabilised, colour-graded, 0.8× speed, cream fades; cropped to hands/fabric, no faces or workshop
   identifiers) + `.jpg` posters; played only on screen by `js/site.js`
 
 Header nav and footer are duplicated in every page: change them in all pages together.
