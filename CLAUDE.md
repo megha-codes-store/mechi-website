@@ -2,7 +2,7 @@
 
 Static multi-page website for Mechi — House of Uniforms, a premium B2B uniform
 manufacturer in Siliguri, West Bengal. Plain HTML + one shared stylesheet; no
-build step. Domain: https://mechihouse.com (not live yet).
+build step. Live at https://mechihouse.com (Netlify; domain registered at Namecheap, Netlify DNS).
 
 ## Structure
 
@@ -27,7 +27,8 @@ Canonical links use `https://mechihouse.com/<page>.html`.
 
 ## Hosting
 
-- Netlify (planned): `netlify.toml` copies only public files (`*.html`, `robots.txt`, `sitemap.xml`,
+- Netlify, deploys automatically from `main` (site glowing-tarsier-e85368). Work on a branch, show the
+  preview, merge to `main` only after founder approval — merging publishes. `netlify.toml` copies only public files (`*.html`, `robots.txt`, `sitemap.xml`,
   `css/`, `js/`, `images/`) into `dist/` and publishes that — CLAUDE.md and other internal files
   are never deployed. Add any new public top-level file to that copy command.
 - `404.html` uses root-absolute paths; `sitemap.xml` lists every public page — update it when
