@@ -2,7 +2,7 @@
 # Only public website files are copied into dist/ and published —
 # internal notes such as CLAUDE.md are never deployed.
 [build]
-  command = "rm -rf dist && mkdir dist && cp -r *.html robots.txt sitemap.xml css js images dist/"
+  command = "rm -rf dist && mkdir dist && cp -r *.html robots.txt sitemap.xml css js images videos dist/"
   publish = "dist"
 
 [[headers]]

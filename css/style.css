@@ -804,6 +804,15 @@ footer.site-footer {
 .sc-list li { font-size: 0.84rem; color: var(--black); padding: 9px 0; border-bottom: 1px solid var(--line); }
 .sector-card .sc-link { margin-top: auto; font-size: 0.86rem; font-weight: 600; color: var(--red); }
 
+/* ============ CRAFT VIDEOS (home) ============ */
+.craft-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.craft-item video {
+  display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+  border-radius: 4px; background: var(--cream);
+}
+.craft-item h4 { font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 600; margin: 16px 0 4px; }
+.craft-item p { font-size: 0.88rem; line-height: 1.6; }
+
 /* ============ LOGO EMBROIDERY FEATURE ============ */
 .embroidery-feature {
   display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 60px; align-items: center;
@@ -1097,6 +1106,7 @@ footer.site-footer {
   .whysec-grid, .whysec-grid.six { grid-template-columns: 1fr; gap: 22px; }
   .cta-row .btn { width: 100%; justify-content: center; }
   .sector-cards { grid-template-columns: 1fr; }
+  .craft-grid { grid-template-columns: 1fr; gap: 30px; }
   .float-whatsapp { width: 52px; height: 52px; bottom: 18px; right: 18px; }
   .float-whatsapp .i-wa { width: 26px; height: 26px; }
   .trust-band-inner { grid-template-columns: 1fr; justify-content: start; gap: 22px; }
