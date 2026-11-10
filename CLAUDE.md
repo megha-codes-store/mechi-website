@@ -6,8 +6,7 @@ build step. Live at https://mechihouse.com (Netlify; domain registered at Namech
 
 ## Structure
 
-- `index.html` — home (4-slide hero slider, sector cards, trust band, How It Works, branding,
-  "Crafted in Detail" videos, reach path)
+- `index.html` — home (4-slide hero slider, sector cards, trust band, How It Works, branding, reach path)
 - `about.html` (story + Why Mechi `#why-mechi` + reach), `what-we-make.html` ("All Uniforms"), `contact.html`
 - Sector pages: `healthcare-uniforms.html`, `hospitality-uniforms.html`,
   `corporate-uniforms.html`, `school-uniforms.html` — all share one template
@@ -18,7 +17,8 @@ build step. Live at https://mechihouse.com (Netlify; domain registered at Namech
   favicon, hero photos (`hero2-<sector>.jpg` + `-768/-1536.webp` via srcset; used on home and sector pages),
   `og-image.jpg` (link-preview card), product photos
 - `videos/` — `craft-*.mp4` (muted 720×540 H.264 loops; stabilised, colour-graded, 0.8× speed, cream fades; cropped to hands/fabric, no faces or workshop
-  identifiers) + `.jpg` posters; played only on screen by `js/site.js`
+  identifiers) + `.jpg` posters; played only on screen by `js/site.js`. Removed from the home page at the
+  founders' request (Nov 2026); files, CSS (`.craft-grid`) and JS kept for when videos return.
 
 Header nav and footer are duplicated in every page: change them in all pages together.
 Menu (founder-approved): Home · Uniforms ▾ (4 sector pages + All Uniforms) · About · Contact.
